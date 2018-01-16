@@ -9,8 +9,6 @@
 import UIKit
 
 class AddTaskViewController: UIViewController {
-
-    var previousViewController = ViewController()
     
     @IBOutlet weak var importantSwitch: UISwitch!
     @IBOutlet weak var textField: UITextField!
@@ -21,16 +19,15 @@ class AddTaskViewController: UIViewController {
     }
 
     @IBAction func addPressed(_ sender: Any) {
-        let task:Task = Task()
+        let coreDataContext = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+        let task:Task = Task(context: coreDataContext)
         task.title = textField.text!
         task.important = importantSwitch.isOn
-        
-        previousViewController.tasks.append(task)
-        previousViewController.tableView.reloadData()
+        (UIApplication.shared.delegate as! AppDelegate).saveContext()
+        //pop back
         navigationController?.popViewController(animated: true)
-        
-        
     }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

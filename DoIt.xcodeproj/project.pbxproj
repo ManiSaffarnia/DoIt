@@ -14,7 +14,6 @@
 		3C5104D0200A5A5100ACCF6B /* DoIt.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3C5104CE200A5A5100ACCF6B /* DoIt.xcdatamodeld */; };
 		3C5104D2200A5A5100ACCF6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C5104D1200A5A5100ACCF6B /* Assets.xcassets */; };
 		3C5104D5200A5A5100ACCF6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C5104D3200A5A5100ACCF6B /* LaunchScreen.storyboard */; };
-		3C5104DD200A5C8D00ACCF6B /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5104DC200A5C8D00ACCF6B /* Task.swift */; };
 		3C5104DF200A61BF00ACCF6B /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5104DE200A61BF00ACCF6B /* AddTaskViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -28,7 +27,6 @@
 		3C5104D1200A5A5100ACCF6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C5104D4200A5A5100ACCF6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C5104D6200A5A5100ACCF6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3C5104DC200A5C8D00ACCF6B /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		3C5104DE200A61BF00ACCF6B /* AddTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -64,7 +62,6 @@
 			children = (
 				3C5104C7200A5A5100ACCF6B /* AppDelegate.swift */,
 				3C5104C9200A5A5100ACCF6B /* ViewController.swift */,
-				3C5104DC200A5C8D00ACCF6B /* Task.swift */,
 				3C5104CB200A5A5100ACCF6B /* Main.storyboard */,
 				3C2A82C3200CFF6B0084CE24 /* CompleteViewController.swift */,
 				3C5104DE200A61BF00ACCF6B /* AddTaskViewController.swift */,
@@ -148,7 +145,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C5104DD200A5C8D00ACCF6B /* Task.swift in Sources */,
 				3C5104D0200A5A5100ACCF6B /* DoIt.xcdatamodeld in Sources */,
 				3C5104CA200A5A5100ACCF6B /* ViewController.swift in Sources */,
 				3C5104C8200A5A5100ACCF6B /* AppDelegate.swift in Sources */,
